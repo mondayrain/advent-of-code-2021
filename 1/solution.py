@@ -11,6 +11,6 @@ def run():
     for i in range(len(lines) - 1):
         increases += 1 if lines[i] < lines[i+1] else 0
 
-    print(increases)
+    return increases
 
-run()
+print(run())
